@@ -1,0 +1,22 @@
+uuid: e4c793c3-bde7-459c-90bf-90574a50c5c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalcamppoland2024
+_core:
+  default_config_hash: '-VcOYRSt_JpIIfDyajkVx70Z3ghGRbCzyWXRZEb0Dfg'
+id: drupalcamppoland2024_messages
+theme: drupalcamppoland2024
+region: header
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

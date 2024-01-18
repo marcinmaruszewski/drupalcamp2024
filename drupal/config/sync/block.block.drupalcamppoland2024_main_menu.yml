@@ -1,0 +1,27 @@
+uuid: d8bfb965-68fd-4d31-a9be-28dbe4c6585f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - drupalcamppoland2024
+_core:
+  default_config_hash: DGS0nTHcQ0JgsCzzMsrRmgCR01T000XivcP9indUmdY
+id: drupalcamppoland2024_main_menu
+theme: drupalcamppoland2024
+region: navbar_left
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

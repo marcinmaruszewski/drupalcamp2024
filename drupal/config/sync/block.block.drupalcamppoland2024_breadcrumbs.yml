@@ -1,0 +1,22 @@
+uuid: 8e0cbd16-f984-491c-81c1-d05b4b8bb4cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalcamppoland2024
+_core:
+  default_config_hash: Y1FUOyE5jcpad7kCgtG4UYK_r7k9vi8x96qAhaxHHnI
+id: drupalcamppoland2024_breadcrumbs
+theme: drupalcamppoland2024
+region: header
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

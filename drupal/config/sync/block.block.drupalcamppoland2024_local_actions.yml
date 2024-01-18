@@ -1,0 +1,20 @@
+uuid: 674405bf-cfa2-4467-b67b-c9f1158cdea3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupalcamppoland2024
+_core:
+  default_config_hash: 7vXHOWa2Up51jz8SLPJmASvRDOfFfYQ3CLKOL7lHGkw
+id: drupalcamppoland2024_local_actions
+theme: drupalcamppoland2024
+region: header
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

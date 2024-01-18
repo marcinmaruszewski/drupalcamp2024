@@ -1,0 +1,20 @@
+uuid: c4c6cf81-9253-4db2-9da2-bcf732478632
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupalcamppoland2024
+_core:
+  default_config_hash: nBbaOT23RnVmaSw06slmFmArOxLDU-Fu5lcJQt4v5Z4
+id: drupalcamppoland2024_page_title
+theme: drupalcamppoland2024
+region: header
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

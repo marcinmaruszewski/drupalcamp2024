@@ -1,0 +1,20 @@
+uuid: d5be5865-a959-4cd6-a1c6-5342b549de59
+langcode: en
+status: true
+dependencies:
+  theme:
+    - radix
+_core:
+  default_config_hash: ABoKnlk20KHqZRw_2Qr4EvaFvH4lnQ2nuhunHeE1JIU
+id: radix_local_actions
+theme: radix
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

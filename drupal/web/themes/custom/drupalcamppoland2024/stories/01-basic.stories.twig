@@ -1,0 +1,32 @@
+{% stories my_card with { title: 'Components/Examples/Button' } %}
+
+  {% story default with {
+    name: '1. Default',
+    args: {
+      button_html_tag: 'a',
+      color_class: 'primary',
+      url: 'http://example.com',
+      content: 'Test content'
+    },
+    argTypes: {
+      button_html_tag: {
+        control: "select",
+        options: ['a', 'button']
+      },
+      color_class: {
+        control: "select",
+        options: ['primary', 'secondary', 'warning']
+      }
+    }
+  }%}
+
+    {% include 'radix:button' with {
+      button_html_tag: button_html_tag,
+      color: color_class,
+      content: content
+    } %}
+
+
+  {% endstory %}
+
+{% endstories  %}

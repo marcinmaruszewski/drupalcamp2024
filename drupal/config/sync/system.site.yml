@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
+langcode: en
+uuid: ab60be83-ea08-4d81-9798-4463f35da127
+name: 'DrupalCamp 2024'
+mail: sdc@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
