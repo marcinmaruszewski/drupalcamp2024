@@ -1,0 +1,14 @@
+uuid: 3bc7b7df-aac5-4f69-b5e1-28a31676b949
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.editor
+  module:
+    - user
+id: user_remove_role_action.editor
+label: 'Remove the Editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: editor
