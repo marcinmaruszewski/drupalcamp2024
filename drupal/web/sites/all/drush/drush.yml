@@ -3,7 +3,7 @@ command:
   sql:
     dump:
       options:
-        result-file: /mysql/dump.sql
+        result-file: /var/www/html/mysql/dump.sql
         structure-tables-key: common
 
 sql:
